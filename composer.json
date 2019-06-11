@@ -1,0 +1,22 @@
+{
+    "name": "ppoe/nrw19-ue",
+    "description": "API zum Unterstützungserklärungen sammeln",
+    "type": "project",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Peter Postmann",
+            "email": "peter@piratenpartei.at"
+        }
+    ],
+    "require": {
+        "setasign/fpdi": "^2.2",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi-fpdf": "^2.2"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "cs": "phpcs --standard=psr2 src/",
+        "cf": "phpcbf --standard=PSR2 src/ "
+    }
+}
